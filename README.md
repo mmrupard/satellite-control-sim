@@ -11,15 +11,15 @@ A Python-based simulation of a ground station sending commands to a virtual sate
 
 ## How to Run
 
+Note: This currently only works if you run the server and gui from the root directory
+
 1. Start the simulated satellite server:
    ```bash
-   cd satellite
-   python satellite.py
+   python satellite/satellite.py
    ```
 2. Start the GUI
    ```bash
-   cd ground_station
-   python gui.py
+   python ground_station/gui.py
    ```
 
 ## TODO
