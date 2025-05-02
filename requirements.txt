@@ -1,2 +1,5 @@
 flask
 requests
+matplotlib
+flask-socketio
+uvicorn
